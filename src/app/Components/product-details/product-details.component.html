@@ -1,0 +1,16 @@
+<div class="bg-dark p-5 text-light text-center">
+    <h3>Product Details</h3>
+    <p>Product Id : {{product?.id}}</p>
+    <p>Product Name : {{product?.productName}}</p>
+    <p>Product price : {{product?.price}}</p>
+    <p>Product Quantity : {{product?.quantity}}</p>
+    <div class="text-warning fs-4">
+        <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    </div>
+    <button [routerLink]="['/products']" class="btn btn-outline-info">Back To Products</button>
+    
+</div>

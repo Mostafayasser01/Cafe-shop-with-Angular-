@@ -1,0 +1,27 @@
+<div class="container bg-light mt-1 p-5">
+    <form>
+ 
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Product ID </label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Product ID">
+  
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Product Name </label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Product Name">
+  
+          </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Quantity </label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Product Quantity">
+
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Price</label>
+          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Product price">
+        </div>
+        
+        <button type="submit" class="btn btn-dark" (click)="ToProducts($event)">Add Product</button>
+      </form>
+</div>
